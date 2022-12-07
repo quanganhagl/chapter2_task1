@@ -1,0 +1,35 @@
+/* Breadcrumb
+------------------------------------------------------------*/
+.c-header__breadcrumb {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+.c-header__breadcrumb::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f015";
+    padding-right: 5px;
+    margin-left: -1px;
+}
+
+.c-footer__breadcrumb {
+    display: block;
+    text-transform: uppercase;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-left: 99px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.c-footer__breadcrumb::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f015";
+    padding-right: 1px;
+}

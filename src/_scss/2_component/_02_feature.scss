@@ -1,0 +1,87 @@
+.c-featurecont {
+    margin: 0 100px;
+    padding: 60px 100px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+
+    .c-feature__secheading {
+        font-size: 24px;
+        padding: 7px 0 5px 20px;
+        border: 1px solid #ffd800;
+        border-left: 7px solid #ffd800;
+        border: 1px solid #f68e56 !important;
+        border-left: 7px solid #f68e56 !important;
+        background-color: #fff2f2;
+    }
+
+    .c-feature__articlelist {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 45px;
+        column-gap: 50px;
+
+        .c-feature__thumbnail {
+            background-image: url(../../_public/assets/img/Feature/Image.jpg);
+            width: 300px;
+            height: 185px;
+        }
+
+        .c-feature__headline {
+            width: 100px;
+            height: 30px;
+            margin-top: 15px;
+            text-align: center;
+            line-height: 30px;
+            background-color: #a3d39c;
+            font-weight: 500;
+        }
+
+        .c-feature__headline--yellow {
+            background-color: #fff799 !important;
+        }
+
+        .c-feature__headline--pink {
+            background-color: #ffdfdf !important;
+        }
+
+        .c-feature__headline3 {
+            width: 70px !important;
+        }
+
+        .c-feature__headline5 {
+            width: 130px !important;
+        }
+
+        .c-feature__content {
+            margin-top: 16px;
+            line-height: 1.44;
+            font-weight: 500;
+
+            .c-feature__content--aligned {
+                margin-top: -1px;
+            }
+        }
+    }
+
+    .c-feature_viewmore {
+        margin-top: 54px;
+        display: block;
+        width: 296px;
+        height: 61px;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height: 64px;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 5px;
+        background-color: #f68e56 !important;
+        margin-left: auto;
+        margin-right: 0 !important;
+        font-weight: 700;
+    }
+}

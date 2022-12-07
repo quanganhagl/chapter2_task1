@@ -1,0 +1,18 @@
+{
+  "linklists": {
+    "main": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "Link 1",
+        "url": "/link1.html"
+      },
+      {
+        "title": "About",
+        "url": "/about.html"
+      }
+    ]
+  }
+}
