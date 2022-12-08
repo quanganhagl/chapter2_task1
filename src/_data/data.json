@@ -3,15 +3,15 @@
     "main": [
       {
         "title": "Home",
-        "url": "/"
+        "url": "./"
       },
       {
         "title": "Link 1",
-        "url": "/link1.html"
+        "url": "./link1.html"
       },
       {
-        "title": "About",
-        "url": "/about.html"
+        "title": "Link 2",
+        "url": "./link2.html"
       }
     ]
   }
