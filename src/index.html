@@ -1,7 +1,7 @@
 <%- include('_layouts/layout', { title: 'Home page' }); -%>
 
 <!-- @meta -->
-<meta name="description" content="Home page" />
+<meta name="description" content="Home page">
 <!-- @@meta -->
 
 <!-- @content -->
@@ -9,7 +9,7 @@
   <!-- BANNER
     ****************************** -->
   <div class="c-header__banner">
-    <img src="./assets/img/Image.jpg" alt="banner" />
+    <img src="./assets/img/Image.jpg" alt="banner">
     <div class="c-header__headline">Category 1</div>
     <p class="c-header__content">
       Title title
@@ -22,7 +22,7 @@
   <!-- NEWS
     ****************************** -->
   <section class="c-news">
-    <h1 class="c-news__secheading">News</h1>
+    <h2 class="c-news__secheading">News</h2>
     <div class="c-news__articlelist">
       <article>
         <div class="c-news__thumbnail">
@@ -34,7 +34,7 @@
           </h2>
           <p class="c-news__text">
             text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
-            <p class="c-news__text c-news__text--aligned">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text...</p>
+          <span class="c-news__text c-news__text--aligned">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text...</span>
           </p>
           <a class="c-news__link" href="#">Link1</a>
         </div>
@@ -50,7 +50,7 @@
           <h2 class="c-news__heading">Title title title title</h2>
           <p class="c-news__text">
             text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
-            <p class="c-news__text c-news__text--aligned">text text text text text text text text text text text text text text text text</p>
+            <span class="c-news__text c-news__text--aligned">text text text text text text text text text text text text text text text text</span>
           </p>
           <a class="c-news__link" href="#">Link2</a>
         </div>
@@ -63,7 +63,7 @@
           <h2 class="c-news__heading">Title title title title title title</h2>
           <p class="c-news__text">
             text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
-            <p class="c-news__text c-news__text--aligned">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p>
+            <span class="c-news__text c-news__text--aligned">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
           </p>
           <a class="c-news__link" href="#">Link3</a>
         </div>
@@ -88,11 +88,11 @@
 
   <!-- FEATURE
     ****************************** -->
-  <section class="c-featurecont">
+  <div class="c-featurecont">
     <section class="c-feature">
-      <h1 class="c-feature__secheading">Feature</h1>
+      <h2 class="c-feature__secheading">Feature</h2>
       <div class="c-feature__articlelist">
-        <article>
+        <div>
           <div class="c-feature__thumbnail"></div>
           <div class="c-feature__headline">Text text</div>
           <div class="c-feature__content">
@@ -102,8 +102,8 @@
               title title title title title title
             </p>
           </div>
-        </article>
-        <article>
+        </div>
+        <div>
           <div class="c-feature__thumbnail"></div>
           <div class="c-feature__headline">Text text</div>
           <div class="c-feature__content">
@@ -112,8 +112,8 @@
               title title title title title title title title title title title
             </p>
           </div>
-        </article>
-        <article>
+        </div>
+        <div>
           <div class="c-feature__thumbnail"></div>
           <div
             class="c-feature__headline c-feature__headline--pink c-feature__headline3"
@@ -126,18 +126,18 @@
               title title title title title title title title title title title
             </p>
           </div>
-        </article>
-        <article>
+        </div>
+        <div>
           <div class="c-feature__thumbnail"></div>
           <div class="c-feature__headline">Text text</div>
           <div class="c-feature__content">
             <p>
               Title title title title title title title title title title
-              <p class="c-feature__content--aligned">title title title title title title title title</p>
+              <span class="c-feature__content--aligned">title title title title title title title title</span>
             </p>
           </div>
-        </article>
-        <article>
+        </div>
+        <div>
           <div class="c-feature__thumbnail"></div>
           <div
             class="c-feature__headline c-feature__headline--yellow c-feature__headline5"
@@ -147,30 +147,30 @@
           <div class="c-feature__content">
             <p>
               Title title title title title title title title title title
-              <p class="c-feature__content--aligned">title title title title title title title title title title title title title title title</p>
+              <span class="c-feature__content--aligned">title title title title title title title title title title title title title title title</span>
             </p>
           </div>
-        </article>
-        <article>
+        </div>
+        <div>
           <div class="c-feature__thumbnail"></div>
           <div class="c-feature__headline c-feature__headline--aligned">Text text</div>
           <div class="c-feature__content">
             <p>Title title title title title title title title title title
-              <p class="c-feature__content--aligned">title title title title title</p>
+              <span class="c-feature__content--aligned">title title title title title</span>
             </p>
           </div>
-        </article>
+        </div>
       </div>
       <a href="#" class="c-feature_viewmore">View more</a>
     </section>
-  </section>
+  </div>
 
   <!-- BLOG
     ****************************** -->
   <section class="c-blog">
-    <h1 class="c-blog__secheading">Blog</h1>
+    <h2 class="c-blog__secheading">Blog</h2>
     <div class="c-blog__articlelist">
-      <article>
+      <div>
         <div class="c-blog__thumbnail"></div>
         <div class="c-blog__headline">Text text</div>
         <div class="c-blog__content">
@@ -180,8 +180,8 @@
             title title title title title title
           </p>
         </div>
-      </article>
-      <article>
+      </div>
+      <div>
         <div class="c-blog__thumbnail"></div>
         <div class="c-blog__headline c-blog__headline--pink c-blog__headline2">
           Text
@@ -192,8 +192,8 @@
             title title title title title title title title title title title
           </p>
         </div>
-      </article>
-      <article>
+      </div>
+      <div>
         <div class="c-blog__thumbnail"></div>
         <div class="c-blog__headline c-blog__headline--aligned">Text text</div>
         <div class="c-blog__content">
@@ -203,8 +203,8 @@
             title title title title title title
           </p>
         </div>
-      </article>
-      <article>
+      </div>
+      <div>
         <div class="c-blog__thumbnail"></div>
         <div class="c-blog__headline c-blog__headline--pink c-blog__headline4 c-blog__headline--aligned">
           Text
@@ -215,7 +215,7 @@
             title title title title title title title title title title title
           </p>
         </div>
-      </article>
+      </div>
     </div>
     <a href="#" class="c-blog_viewmore">View more</a>
   </section>
