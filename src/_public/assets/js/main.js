@@ -10,7 +10,6 @@ var nav = document.querySelector(".c-header__nav")
 var headerBreadcrumbHome = document.querySelector(".c-header__home");
 
 if (document.title == "Link 1") {
-  navLinks.style.transform = "translate(0, 1px)"
   nav.style.paddingBottom = "19px"
   link1.style.transform = "translate(3px, 0px)";
   headerBreadcrumbHome.style.transform = "translate(0px, 2px);";
@@ -26,20 +25,24 @@ if (document.title == "Link 2") {
 
 if (document.title == "Home page") {
   home.classList.add("c-header__link--bold");
+  home.style.pointerEvents = "none"
   link1.classList.remove("c-header__link--bold");
   link2.classList.remove("c-header__link--bold");
+
 }
 if (document.title == "Link 1") {
   home.classList.remove("c-header__link--bold");
   home.style.fontWeight = "500";
   link1.classList.add("c-header__link--bold");
   link2.classList.remove("c-header__link--bold");
+  link1.style.pointerEvents = "none"
   link2.style.fontWeight = "500";
 }
 if (document.title == "Link 2") {
   home.classList.remove("c-header__link--bold");
   link1.classList.remove("c-header__link--bold");
   link2.classList.add("c-header__link--bold");
+  link2.style.pointerEvents = "none"
 }
 
 // breadcrumb thay đổi khi truy cập link nhất định

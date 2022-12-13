@@ -2,160 +2,161 @@
 footer
 ------------------------------------------------------------*/
 .c-footer {
-    .c-footer__linklist {
-        border-bottom: 1px solid #ccc;
-        background-color: #fafafa;
+  .c-footer__linklist {
+    border-bottom: 1px solid #ccc;
+    background-color: #fafafa;
 
-        .c-footer__linklistcont {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 48px;
-            padding: 40px 100px 35px;
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto;
-        }
+    .c-footer__linklistcont {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 48px;
+      padding: 40px 100px 35px;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
     }
+  }
 
-    &__linklist ul {
-        list-style-type: none;
-        margin-top: 4px;
-        line-height: 1.43 !important;
+  &__linklist ul {
+    list-style-type: none;
+    margin-top: -1px;
+    line-height: 1.43 !important;
+  }
+
+  &__boxlink1 li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f111";
+    padding-right: 6px;
+    font-size: 0.5rem;
+    vertical-align: middle;
+    display: inline-block;
+    transform: translate(0px, -1px);
+  }
+
+  &__boxlink2 li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    padding-right: 7px;
+    vertical-align: middle;
+    font-size: 1rem;
+    display: inline-block;
+    transform: translate(-1px, -1px);
+  }
+
+  &__boxlink3 li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0c1";
+    padding-right: 8px;
+    vertical-align: middle;
+    font-size: 1rem;
+    display: inline-block;
+    transform: translate(0, -1px);
+  }
+
+  &__listheading {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0;
+    font-weight: 700;
+    transform: translate(0, -5px);
+  }
+
+  .c-footer__listheading--aligned {
+    margin-left: 0;
+  }
+
+  &__copyright {
+    height: 55px;
+    line-height: 1.67;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 16px;
+  }
+
+  // BREADCRUMBS footer
+  // *******************************
+
+  .c-footer__breadcrumb {
+    display: block;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    margin: 109px auto 0;
+
+    .c-footer__breadcrumbcont {
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
     }
+  }
 
-    &__boxlink1 li::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f111";
-        padding-right: 6px;
-        font-size: 0.5rem;
-        vertical-align: middle;
-        display: inline-block;
-    }
+  .c-footer__home {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 2px;
+    color: #000;
+    position: relative;
+    right: -20px;
+    top: -1px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
 
-    &__boxlink2 li::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f105";
-        padding-right: 7px;
-        vertical-align: middle;
-        font-size: 1rem;
-        display: inline-block;
-        transform: translate(-1px, -1px);
-    }
+  .c-footer__home::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f015";
+    padding-right: 5px;
+    margin-left: -1px;
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+  }
 
-    &__boxlink3 li::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f0c1";
-        padding-right: 8px;
-        vertical-align: middle;
-        font-size: 1rem;
-        display: inline-block;
-        transform: translate(0, -1px);
-    }
+  .c-footer__link1 {
+    position: relative;
+    right: -42px;
+    text-decoration: none;
+    display: none;
+    transform: translate(0, -2px);
+  }
 
-    &__listheading {
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-        margin-top: 0;
-        font-weight: 700;
-        line-height: 0.7143;
-    }
+  .c-footer__link1::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    padding-right: 5px;
+    margin-left: -1px;
+    position: absolute;
+    left: -14px;
+    bottom: -1px;
+  }
 
-    .c-footer__listheading--aligned {
-        margin-left: 0;
-    }
+  .c-footer__link2 {
+    position: relative;
+    right: -42px;
+    text-decoration: none;
+    display: none;
+  }
 
-    &__copyright {
-        height: 55px;
-        line-height: 1.6667;
-        text-align: center;
-        font-size: 1.2rem;
-        font-weight: 500;
-        padding-top: 16px;
-    }
+  .c-footer__link2::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    padding-right: 5px;
+    margin-left: -1px;
+    position: absolute;
+    left: -14px;
+    bottom: 2px;
+  }
 
-    // BREADCRUMBS footer
-    // *******************************
-
-    .c-footer__breadcrumb {
-        display: block;
-        border-top: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
-        padding-top: 6px;
-        padding-bottom: 5px;
-        margin: 109px auto 0;
-
-        .c-footer__breadcrumbcont {
-            max-width: 1000px;
-            width: 100%;
-            margin: 0 auto;
-        }
-    }
-
-    .c-footer__home {
-        list-style-type: none;
-        text-transform: uppercase;
-        display: inline-block;
-        margin-top: 2px;
-        color: #000;
-        position: relative;
-        right: -20px;
-        top: -1px;
-        text-decoration: underline;
-        text-underline-offset: 2px;
-    }
-
-    .c-footer__home::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f015";
-        padding-right: 5px;
-        margin-left: -1px;
-        position: absolute;
-        left: -20px;
-        bottom: 0;
-    }
-
-    .c-footer__link1 {
-        position: relative;
-        right: -42px;
-        text-decoration: none;
-        display: none;
-        transform: translate(0, -2px);
-    }
-
-    .c-footer__link1::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f105";
-        padding-right: 5px;
-        margin-left: -1px;
-        position: absolute;
-        left: -14px;
-        bottom: -1px;
-    }
-
-    .c-footer__link2 {
-        position: relative;
-        right: -42px;
-        text-decoration: none;
-        display: none;
-    }
-
-    .c-footer__link2::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f105";
-        padding-right: 5px;
-        margin-left: -1px;
-        position: absolute;
-        left: -14px;
-        bottom: 2px;
-    }
-
-    .c-footer__link--displayed {
-        display: inline-block;
-    }
+  .c-footer__link--displayed {
+    display: inline-block;
+  }
 }
