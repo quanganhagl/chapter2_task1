@@ -2,24 +2,23 @@
 // ***************************************************************
 var logo = document.querySelector(".c-header__img");
 var home = document.querySelector(".c-header__1");
-
 var link1 = document.querySelector(".c-header__2");
 var link2 = document.querySelector(".c-header__3");
+var navLinks = document.querySelector(".c-header__navlinks")
+var nav = document.querySelector(".c-header__nav")
 
 var headerBreadcrumbHome = document.querySelector(".c-header__home");
-// var headerBreadcrumbHomeLogo = document.querySelector(".c-header__home::before");
 
 if (document.title == "Link 1") {
-  // logo.style.transform = "translate(0, 1px)";
+  navLinks.style.transform = "translate(0, 1px)"
+  nav.style.paddingBottom = "19px"
   link1.style.transform = "translate(3px, 0px)";
-  // headerBreadcrumbHome.style.transform = "translate(-1px, 2px)";
-  // headerBreadcrumbHome.style.fontWeight = "500";
-  // headerBreadcrumbHomeLogo.style.transform = "translate()";
+  headerBreadcrumbHome.style.transform = "translate(0px, 2px);";
+  headerBreadcrumbHome.style.fontWeight = "500";
 }
 
 if (document.title == "Link 2") {
-  home.style.transform = "translate(-2px, 0px);";
-  // headerBreadcrumbHomeLogo.style.transform = "translate()";
+  home.style.transform = "translate(-4px, 0px);";
 }
 
 // Đường link in đậm khi truy cập trang nhất định
@@ -32,8 +31,10 @@ if (document.title == "Home page") {
 }
 if (document.title == "Link 1") {
   home.classList.remove("c-header__link--bold");
+  home.style.fontWeight = "500";
   link1.classList.add("c-header__link--bold");
   link2.classList.remove("c-header__link--bold");
+  link2.style.fontWeight = "500";
 }
 if (document.title == "Link 2") {
   home.classList.remove("c-header__link--bold");
@@ -42,6 +43,7 @@ if (document.title == "Link 2") {
 }
 
 // breadcrumb thay đổi khi truy cập link nhất định
+// ***************************************************************
 
 //breadcrumb header
 
@@ -67,11 +69,6 @@ if (document.title == "Link 2") {
 var footerBreadcrumbHome = document.querySelector(".c-footer__home");
 var footerBreadcrumbLink1 = document.querySelector(".c-footer__link1");
 var footerBreadcrumbLink2 = document.querySelector(".c-footer__link2");
-// if (document.title == "Home page") {
-//   footerBreadcrumbLink1.classList.remove("c-footer__link--displayed");
-// } else if (document.title == "Link 1") {
-//   footerBreadcrumbLink1.classList.add("c-footer__link--displayed");
-// }
 
 if (document.title == "Home page") {
   footerBreadcrumbHome.style.textDecoration = "none";

@@ -5,10 +5,8 @@ body {
     font-size: 1.4rem;
     font-weight: 400;
     min-width: $base-width;
-    line-height: 20px;
+    line-height: 1.4286;
     @include sp {
         min-width: 320px;
     }
-    margin-left: auto !important;
-    margin-right: auto !important;
 }

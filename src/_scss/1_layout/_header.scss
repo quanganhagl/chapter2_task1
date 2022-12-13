@@ -8,7 +8,7 @@
         justify-content: space-between;
         align-items: center;
         padding-bottom: 19px;
-        border-bottom: solid 1px #ccc;
+        border-bottom: solid 1px #a8a8a8;
     }
 
     .c-header__navlinks {
@@ -46,32 +46,8 @@
         }
     }
 
-    // BREADCRUMBS
+    // BREADCRUMBS HEADER
     // *******************************
-
-    // .c-header__breadcrumb {
-    //     list-style-type: none;
-    //     display: block;
-    //     // display: none;
-    //     margin-top: 25px;
-    //     max-width: 1000px;
-    //     width: 100%;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     text-decoration: none;
-    //     color: #000;
-    // }
-
-    // .c-header__breadcrumb::before {
-    //     font-family: "Font Awesome 5 Free";
-    //     font-weight: 900;
-    //     content: "\f015";
-    //     padding-right: 5px;
-    //     margin-left: -1px;
-    // }
-
-    // .c-header__breadcrumb--displayed {
-    //     display: block;
 
     .c-header__home {
         list-style-type: none;
@@ -80,20 +56,21 @@
         margin-top: 25px;
         color: #000;
         position: relative;
-        right: -20px;
-        top: 1px;
+        right: -19px;
         text-decoration: underline;
-        // text-decoration-color: #868686;
+        line-height: 1.4286;
+        transform: translate(1px, 2px);
+        transform: translate(1px, 2px);
     }
 
     .c-header__home::before {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         content: "\f015";
-        padding-right: 0;
+        padding-right: 2px;
         position: absolute;
         left: -21px;
-        // transform: translate(1px,-1px);
+        top: -1px;
     }
 
     .c-header__link1,
@@ -102,7 +79,7 @@
         right: -42px;
         text-decoration: none;
         display: none;
-        top: 2px;
+        top: 1px;
         font-weight: 500;
     }
 
@@ -115,7 +92,7 @@
         margin-left: -1px;
         position: absolute;
         left: -14px;
-        bottom: -3px;
+        bottom: 0;
     }
 
     .c-header__link--displayed {

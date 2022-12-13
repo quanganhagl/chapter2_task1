@@ -7,13 +7,13 @@
     margin-right: auto;
     color: #222;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1.5rem;
 
     // BIG LINK 2 BUTTON
     // **********************************
     .c-bigbutton {
         display: block;
-        font-size: 32px;
+        font-size: 3.2rem;
         font-weight: 700;
         text-align: center;
         background-color: #6dcff6;
@@ -23,23 +23,26 @@
         margin-bottom: 50px;
         color: #000;
         text-transform: uppercase;
+        line-height: 0.625;
     }
 
     // TITLE 1
     // **********************************
     .c-article__title {
-        font-size: 24px;
+        font-size: 2.4rem;
         padding: 16px 880px 14px 20px;
         background-color: #bcd5e1;
         border-left: #11638a solid 7px;
         color: #11638a;
         margin-bottom: 22px;
+        line-height: 0.8333;
     }
 
     .c-article__content {
-        font-size: 15px;
+        font-size: 1.5rem;
         font-weight: 500;
         margin-left: -1px;
+        line-height: 1.3333;
 
         .c-article__content--red {
             color: #c40000;
@@ -47,13 +50,14 @@
     }
 
     .c-article__comment {
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 500;
         color: #11638a;
         position: relative;
         left: 25px;
         margin-top: 52px;
         margin-bottom: 6px;
+        line-height: 1.25;
     }
 
     .c-article__comment::before {
@@ -64,12 +68,12 @@
         margin-left: -1px;
         position: absolute;
         left: -25px;
-        bottom: 0;
-        font-size: 20px;
+        bottom: -2px;
+        font-size: 2rem;
     }
 
     .c-article__quote {
-        font-size: 15px;
+        font-size: 1.5rem;
         font-weight: 500;
         color: #11638a;
         padding: 19px 22px 19px 28px;
@@ -79,6 +83,7 @@
         position: relative;
         text-indent: 19px;
         transform: translate(-1px, 1px);
+        line-height: 1.3333;
     }
 
     .c-article__quote--aligned {
@@ -124,13 +129,13 @@
     }
 
     .c-article__seedling {
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 500;
         color: #f5989d;
         position: relative;
         left: 25px;
         margin-top: 31px;
-        margin-bottom: 6px;
+        margin-bottom: 3px;
     }
 
     .c-article__seedling::before {
@@ -141,18 +146,18 @@
         margin-left: -1px;
         position: absolute;
         left: -25px;
-        bottom: 0;
-        font-size: 20px;
+        bottom: -2px;
+        font-size: 2rem;
     }
 
     .c-article__palette {
         margin-top: 31px;
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 500;
         color: #f5989d;
         position: relative;
         left: 25px;
-        margin-bottom: 6px;
+        margin-bottom: 4px;
     }
 
     .c-article__palette::before {
@@ -163,22 +168,21 @@
         margin-left: -1px;
         position: absolute;
         left: -25px;
-        bottom: 0;
-        font-size: 20px;
+        bottom: -2px;
+        font-size: 2rem;
     }
 
     .c-article__list {
         list-style-type: none;
         counter-reset: item;
-        line-height: 30px;
-        // margin-bottom: 37px;
+        line-height: 2;
         margin-top: 25px;
 
         .c-article__listitem {
             display: table;
             counter-increment: item;
             font-weight: 500;
-            font-size: 15px;
+            font-size: 1.5rem;
         }
 
         .c-article__listitem::before {
@@ -243,8 +247,8 @@
     }
 
     .c-article__table {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 1.4rem;
+        line-height: 1.4286;
         border-collapse: collapse;
         margin-bottom: 124px;
         margin-left: -1px;
